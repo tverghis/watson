@@ -1,5 +1,5 @@
 import Discord from 'discord.js';
-import Config from '../botconfig.json';
+import Config from './botconfig.json';
 
 const client = new Discord.Client();
 

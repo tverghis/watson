@@ -12,9 +12,6 @@
     "include": [
         "src/**/*"
     ],
-    "files": [
-        "botconfig.json"
-    ],
     "exclude": [
         "node_modules"
     ]
