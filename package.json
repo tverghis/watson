@@ -1,0 +1,23 @@
+{
+  "name": "watson",
+  "version": "0.1.0",
+  "description": "Mildly entertaining Discord bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tverghis/watson.git"
+  },
+  "keywords": [
+    "Discord",
+    "Bot"
+  ],
+  "author": "tverghis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tverghis/watson/issues"
+  },
+  "homepage": "https://github.com/tverghis/watson#readme"
+}
