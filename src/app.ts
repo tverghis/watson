@@ -1,10 +1,5 @@
-import Discord from 'discord.js';
+import { Watson } from './Watson';
 import Config from './botconfig.json';
 
-const client = new Discord.Client();
-
-client.on("ready", () => {
-    console.log("Ready!");
-});
-
-client.login(Config.token);
+const watson = new Watson();
+watson.login(Config.token);
