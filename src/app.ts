@@ -1,5 +1,5 @@
-import { Watson } from './Watson';
-import Config from './botconfig.json';
+import config from "./botconfig.json";
+import Watson from "./Watson";
 
-const watson = new Watson();
-watson.login(Config.token);
+const watson = new Watson(config);
+watson.login();
