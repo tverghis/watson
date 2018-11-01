@@ -40,11 +40,9 @@ export default class Watson {
 
     /**
      * Asks Watson to log into Discord.
-     *
-     * @param {string} [token] Bot's secret token
      */
-    public login(token?: string) {
-        this._discord.login(token || this._config.Discord.token);
+    public login() {
+        this._discord.login(this._config.Discord.token);
     }
 
     /**
