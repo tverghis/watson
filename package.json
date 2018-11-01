@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/tverghis/watson#readme",
   "dependencies": {
-    "discord.js": "^11.4.2"
+    "discord.js": "^11.4.2",
+    "simple-youtube-api": "^5.0.2"
   },
   "devDependencies": {
     "@types/node": "^10.11.4"
