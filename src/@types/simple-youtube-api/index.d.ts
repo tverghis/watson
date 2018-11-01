@@ -18,8 +18,8 @@ declare module "simple-youtube-api" {
          * Search YouTube for videos.
          *
          * @param {string} query The string to search for.
-         * @param {number} limit Maximum results to obtain. Default: 5.
-         * @param {Object} options Additional options to pass to the API request. Default: {}.
+         * @param {number} [limit] Maximum results to obtain. Default: 5.
+         * @param {Object} [options] Additional options to pass to the API request. Default: {}.
          * @returns {Promise<Video[]>} Array of Videos, wrapped in a Promise.
          */
         searchVideos(query: string, limit?: number, options?: Object): Promise<Video[]>;
